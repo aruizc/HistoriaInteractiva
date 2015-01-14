@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aruizc.angeldejess.historiainteractiva.GUI.ActividadHistoria"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgImagenHistoria"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/page0"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHistoria"
+        android:layout_below="@+id/imgImagenHistoria"
+        android:layout_alignLeft="@+id/imgImagenHistoria"
+        android:layout_alignStart="@+id/imgImagenHistoria"
+        android:text="On your return trip from studying Saturn&apos;s rings, you hear a distress signal that seems to be coming from the surface of Mars. It&apos;s strange because there hasn&apos;t been a colony there in years. Even stranger, it&apos;s calling you by name: \&quot;Help me, %1$s, you&apos;re my only hope.\&quot;"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingTop="15dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Regresar a la Tierra"
+        android:id="@+id/btnDecision1"
+        android:layout_above="@+id/btnDecision2"
+        android:layout_alignLeft="@+id/txtHistoria"
+        android:layout_alignStart="@+id/txtHistoria"
+        android:background="@android:color/white"
+        android:textColor="#ff3a8aec" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Investigar"
+        android:id="@+id/btnDecision2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"
+        android:textColor="#ff3a8aec" />
+</RelativeLayout>
