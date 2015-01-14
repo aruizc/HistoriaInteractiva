@@ -2,7 +2,7 @@ package com.aruizc.angeldejess.historiainteractiva.Modelos;
 
 /**
  * Created by AngeldeJesús on 07/01/2015.
- */ 
+ */
 public class Decision {
     private String Texto;
     private int SiguientePagina;
